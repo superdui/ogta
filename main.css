@@ -1,0 +1,112 @@
+
+
+h2{
+font-family: "Times New Roman", Times, serif; 
+}
+h3{
+    font-family: "Times New Roman", Times, serif; 
+    }h4{
+        font-family: "Times New Roman", Times, serif; 
+        }
+
+        html, body{
+            margin: 0;
+        }
+        
+        
+        h1{
+    
+        color: rgb(12,185,193);
+        padding-top: 50px;
+        margin-top: 0;
+        margin-bottom: 100px;
+        text-align: center;
+        
+        }
+        /* animation */
+        @keyframes fadeIn {
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+        @keyframes growth {
+            from{
+                transform: scale(var(--growth-from));
+            }
+            to{
+                transform: scale(var(--growth-to));
+            }
+        
+        }
+
+
+        h2{
+        
+            margin-left: 5px;
+            margin-right: 5px;}
+            h3{
+        
+        margin-left: 10px;
+        }
+                 
+        
+        .grid{
+            width: 1300px;
+            max-width: 100%;
+            margin:auto;
+        }
+        .grid__full-width{
+            width: 100%;
+        }
+        .grid__row{
+            display: flex;
+            flex-wrap: nowrap;
+            margin-left: -12px;
+            margin-right: -12px;
+        }
+        .grid__column-1{
+            margin-left: 5px;
+            margin-right: 5px;
+                width: 20%;
+                height: 400px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;}
+                .grid__column-2{
+                  margin-left: 5px;
+                  margin-right: 5px;
+                      width: 20%;
+                      height: 400px;
+                      background-repeat: no-repeat;
+                      background-size: contain;
+                      background-position: center;}
+          .grid__column-3{
+              margin-left: 5px;
+              margin-right: 5px;
+              width: 20%;
+              height: 400px;
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;}
+          .grid__column-4{
+                margin-left: 5px;
+                margin-right: 5px;
+                width: 20%;
+                height: 400px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;}
+            .grid__column-5{
+                margin-left: 5px;
+                margin-right: 5px;
+                width: 20%;
+                height: 400px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;}
+                                                
+
+        
